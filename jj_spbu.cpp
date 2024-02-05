@@ -10,11 +10,12 @@ using namespace std;
 map<int, string> nama_SPBU;
 
 int SPBU_terefisien(){
+     int n = 5;
+     int stok[] = {1, 2, 3, 4, 5};
+     int konsumsi_solar[] = {3, 4, 5, 1, 2};
 
-
-
-
-
+     int result = -1;
+     int max_stock = -1;
 
      for (int i = 0; i < n; ++i) {
           int current_stock = 0;
