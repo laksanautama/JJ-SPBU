@@ -41,7 +41,15 @@ int SPBU_terefisien(){
 }
 
 int main(){
+     nama_SPBU = {{0, "SPBU_A"}, {1, "SPBU_B"}, {2, "SPBU_C"}, {3, "SPBU_D"}, {4, "SPBU_E"}};
 
+  int most_efficient_station = SPBU_terefisien();
+
+  if (most_efficient_station != -1) {  
+       cout << "SPBU paling efisien: " << nama_SPBU[most_efficient_station] << endl;
+    } else {
+       cout << "No Gass!" << endl;
+   }
 
 return 0;
 }
